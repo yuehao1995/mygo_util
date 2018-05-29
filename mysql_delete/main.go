@@ -25,7 +25,7 @@ func init() {
 		fmt.Println("open mysql failed,", err)
 		return
 	}
-
+	fmt.println("")
 	Db = database
 }
 
